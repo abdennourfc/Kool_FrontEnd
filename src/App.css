@@ -1,0 +1,73 @@
+.mainContainer{
+  background-color: rgb(244,246,249);
+  min-width: 95vw;
+  min-height: 100vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  flex-direction: column;
+}
+
+.card{
+  width: 20em;
+  height: 25em;
+}
+
+
+.col {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  flex-direction : column
+}
+
+.row {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+
+
+.dialog {
+
+}
+
+.dialogContent {
+ 
+}
+
+.input{
+  margin-bottom: 2em !important;
+  min-width: 20em !important;
+  width: 70vw;
+}
+
+
+
+.successSnackbarContainer  {
+  border : 1px solid rgb(45, 163, 62);
+  border-radius : 3px;
+  background-color : rgba(45, 163, 62, 0.3);
+  display : flex;
+  justify-content : start;
+  align-items : center;
+  width : 20vw;
+  padding : 10px;
+  min-width : 150px;
+  box-shadow : rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.errorSnackbarContainer  {
+  border : 1px solid rgba(208, 19, 19);
+  border-radius : 3px;
+  background-color : rgba(208, 19, 19, 0.3);
+  display : flex;
+  justify-content : start;
+  align-items : center;
+  width : 20vw;
+  padding : 10px;
+  min-width : 150px;
+  box-shadow : rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px
+}
